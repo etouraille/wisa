@@ -5,6 +5,8 @@
         "php": "^7.1.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "doctrine/annotations": "^1.8",
+        "nesk/puphpeteer": "^1.6",
         "symfony/console": "4.4.*",
         "symfony/dotenv": "4.4.*",
         "symfony/flex": "^1.3.1",
@@ -12,6 +14,8 @@
         "symfony/yaml": "4.4.*"
     },
     "require-dev": {
+        "curl/curl": "^2.2",
+        "symfony/maker-bundle": "^1.14"
     },
     "config": {
         "preferred-install": {
